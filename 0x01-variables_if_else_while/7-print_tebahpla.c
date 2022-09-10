@@ -7,10 +7,13 @@
  */
 int main(void)
 {
-	int i;
+	char a = 'z';
 
-	for (i = 0; i < 10; i++)
-		printf("%i", i);
-	printf("\n");
+	while (a >= 'a')
+	{
+		putchar(a);
+		a--;
+	}
+	putchar('\n');
 	return (0);
 }
