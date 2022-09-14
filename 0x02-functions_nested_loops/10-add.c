@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * add - sums up two numbers
  * @n:first integer
