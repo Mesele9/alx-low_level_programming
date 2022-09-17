@@ -1,4 +1,5 @@
-
+#ifndef MAIN_H
+#define MAIN_H
 /**
  * Description: header file containing functions declaration
  *@c: character to print
@@ -17,3 +18,5 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int);
 void print_times_table(int n);
+
+#endif
