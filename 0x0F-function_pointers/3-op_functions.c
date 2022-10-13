@@ -1,8 +1,9 @@
 #include "3-calc.h"
+
 /**
  * op_add - add a and b
  * @a: first number
- * @b: second number 
+ * @b: second number
  *
  * Return: sum of two numbers
  */
@@ -24,7 +25,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul: mutiply a and b
+ * op_mul - mutiply a and b
  * @a: first num
  * @b: second num
  *
