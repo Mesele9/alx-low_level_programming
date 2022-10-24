@@ -11,12 +11,6 @@ char *rot13(char *s)
 	int len;
 	char *inp = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char *outp = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	
-	len = 0, i = 0,j = 0;
-	while (s[len] != '\0')
-	{
-		len++;
-	}
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
