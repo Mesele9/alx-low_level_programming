@@ -8,7 +8,6 @@
 char *rot13(char *s)
 {
 	int i, j;
-	int len;
 	char *inp = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char *outp = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
