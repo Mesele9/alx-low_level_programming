@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <string.h>
 /**
  * print_numbers - a function that printnumbers
  * @separator: separater between numbers
@@ -10,9 +11,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 	va_list ap;
 
-
 	va_start(ap, n);
-
 	for (i = 0; i < n; i++)
 	{
 		if (!separator)
